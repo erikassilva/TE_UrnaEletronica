@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link REL="stylesheet" href="css/urna.css"/>
+        <meta charset="UTF-8"
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">        
+        <title> Urna Eletrônica </title>
+    </head>
+    <body>     
+        <div class="urna">
+            <div = class="tela">
+                <div class="estrutura-1">
+                    <div class="estrutura-1-left">
+                        <div class="estrutura-1-l1">
+                            <span> SEU VOTO PARA</span>
+                        </div>
+                        <div class="estrutura-1-l2">
+                            <span> PRESIDENTE</span>
+                        </div>
+                        <div class="estrutura-1-l3">
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                            <div class ="aviso--grande pisca"> VOTO NULO</div>
+                            <div class ="aviso--grande pisca"> VOTO BRANCO</div>
+                            <div class ="aviso--superGrande pisca"> FIM</div>
+                        </div>
+                        
+                        <div class="estrutura-1-l4">
+                            Nome: Fulano da Silva <br/>
+                            Partido: JMJ <br/>
+                        </div>
+                    </div>
+                    <div = class="estrutura-1-right">
+                        <div = class="estrutura-1-r1">
+                            <img src="img/dougFunny.png" alt="" />
+                            Presidente
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="estrutura-2">
+                    Aperte a Tecla: <br/>
+                    CONFIRMA para CONFIRMAR este voto <br/>
+                    CORRIGE para REINICIAR este voto
+                </div>
+            </div>
+            <div class="teclado">
+                <div = class="teclado--linha">
+                    <div class="teclado--botao" onclick="clicou('1')">1</div>
+                    <div class="teclado--botao" onclick="clicou('2')">2</div>
+                    <div class="teclado--botao" onclick="clicou('3')">3</div>
+                </div>
+                <div = class="teclado--linha">
+                    <div class="teclado--botao" onclick="clicou('4')">4</div>
+                    <div class="teclado--botao" onclick="clicou('5')">5</div>
+                    <div class="teclado--botao" onclick="clicou('6')">6</div>
+                </div>
+                <div = class="teclado--linha">
+                    <div class="teclado--botao" onclick="clicou('7')">7</div>
+                    <div class="teclado--botao" onclick="clicou('8')">8</div>
+                    <div class="teclado--botao" onclick="clicou('9')">9</div>
+                </div>
+                <div = class="teclado--linha">
+                    <div class="teclado--botao" onclick="clicou('0')">0</div>
+                </div>
+                <div class="teclado--linha">
+                    <div class="teclado--botao botao--branco" onclick="branco()"> BRANCO</div>
+                    <div class="teclado--botao botao--corrige" onclick="corrige()"> CORRIGE</div>
+                    <div class="teclado--botao botao--confirma" onclick="confirma()"> CONFIRMA</div>                    
+                </div>
+            </div>
+        </div>
+        <script src="js/etapas.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+</html>
